@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import { ArrowLeft, ArrowRight, Check } from 'lucide-react';
 import { products } from '@/data/products';
+import WaitlistForm from '@/components/sections/WaitlistForm';
 
 export async function generateStaticParams() {
   return products.map((p) => ({ slug: p.slug }));
@@ -114,14 +115,25 @@ export default function ProductDetailPage({
                 ))}
               </ul>
 
-              <div className="mt-8 border-t border-border pt-8">
-                <p className="text-[13.5px] text-ink-secondary">
-                  Interested in something similar for your team?
-                </p>
-                <Link href="/contact" className="btn-primary mt-4 w-full justify-center">
-                  Start a conversation <ArrowRight size={15} />
-                </Link>
-              </div>
+              {product.status === 'building' ? (
+                <div className="mt-8 border-t border-border pt-8">
+                  <p className="text-[13.5px] text-ink-secondary">
+                    Not live yet. Get an email the moment {product.name} is ready.
+                  </p>
+                  <div className="mt-4">
+                    <WaitlistForm product={product.slug} productName={product.name} />
+                  </div>
+                </div>
+              ) : (
+                <div className="mt-8 border-t border-border pt-8">
+                  <p className="text-[13.5px] text-ink-secondary">
+                    Interested in something similar for your team?
+                  </p>
+                  <Link href="/contact" className="btn-primary mt-4 w-full justify-center">
+                    Start a conversation <ArrowRight size={15} />
+                  </Link>
+                </div>
+              )}
             </div>
           </div>
         </div>

@@ -86,6 +86,52 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <section className="hairline py-16 lg:py-20">
+        <div className="container-lx grid grid-cols-1 gap-12 lg:grid-cols-12">
+          <div className="lg:col-span-5">
+            <p className="eyebrow mb-4">The founder</p>
+            <h2 className="text-[28px] leading-[1.15] tracking-tighter sm:text-[34px]">
+              Started by one person, built the same way we build for clients.
+            </h2>
+          </div>
+          <div className="lg:col-span-7">
+            <p className="max-w-xl text-[15px] leading-relaxed text-ink-secondary">
+              Neuralix Labs is run by <strong className="font-medium text-ink-primary">Mayank Chauhan</strong>,
+              an AI engineer based in Delhi-NCR, currently finishing a
+              B.Tech in Artificial Intelligence. The studio exists because
+              most student and early-stage projects stop at a notebook or a
+              slide deck — Neuralix Labs is the practice of taking an idea
+              all the way to a deployed, working system: model, API,
+              frontend, and everything unglamorous in between.
+            </p>
+            <p className="mt-4 max-w-xl text-[15px] leading-relaxed text-ink-secondary">
+              &ldquo;AI-native&rdquo; is the operating principle, not a buzzword:
+              directing modern AI tools to build and debug production
+              systems end to end, and treating that as a real, marketable
+              engineering skill — not a shortcut around one.
+            </p>
+            <div className="mt-6 flex flex-wrap gap-3">
+              <a
+                href="https://github.com/TelemuseBot"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="rounded-full border border-border px-4 py-2 font-mono text-[12px] text-ink-tertiary hover:border-signal/40 hover:text-signal-soft"
+              >
+                GitHub — TelemuseBot
+              </a>
+              <a
+                href="https://www.linkedin.com/in/imayankchauhan"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="rounded-full border border-border px-4 py-2 font-mono text-[12px] text-ink-tertiary hover:border-signal/40 hover:text-signal-soft"
+              >
+                LinkedIn — imayankchauhan
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-16 lg:py-20">
         <div className="container-lx grid grid-cols-1 gap-8 sm:grid-cols-3">
           <div>

@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 import { mainNav } from '@/data/nav';
 
@@ -34,8 +35,16 @@ export default function Navbar() {
       <nav className="container-lx flex h-16 items-center justify-between">
         <Link
           href="/"
-          className="font-display text-[15px] font-semibold tracking-tighter text-ink-primary"
+          className="flex items-center gap-2.5 font-display text-[15px] font-semibold tracking-tighter text-ink-primary"
         >
+          <Image
+            src="/logo-icon.png"
+            alt="Neuralix Labs"
+            width={32}
+            height={27}
+            className="h-8 w-auto"
+            priority
+          />
           NEURALIX<span className="text-signal">·</span>LABS
         </Link>
 

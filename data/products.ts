@@ -46,6 +46,33 @@ export const products: Product[] = [
     ],
   },
   {
+    slug: 'sara-ai',
+    name: 'SARA AI',
+    category: 'AI Assistant',
+    status: 'building',
+    statusLabel: 'In development',
+    description:
+      'An AI assistant built by Neuralix Labs, currently in active development. Full details and links are on the way.',
+    overview:
+      'SARA AI is the newest product coming out of the studio. We\u2019re building it the same way we build everything else — starting from a real use case, not a feature list — and will share the full picture, demo, and source links as soon as it\u2019s ready to show.',
+    capabilities: [
+      'In active development \u2014 capabilities will be detailed here as they\u2019re built',
+    ],
+    useCases: [
+      'To be announced',
+    ],
+    faq: [
+      {
+        q: 'When will SARA AI be available?',
+        a: 'It\u2019s in active development. Links, a demo, and full details will be added here as soon as they\u2019re ready.',
+      },
+      {
+        q: 'Can I get notified when it launches?',
+        a: 'Yes \u2014 use the notify form on this page and we\u2019ll reach out the moment there\u2019s something to show.',
+      },
+    ],
+  },
+  {
     slug: 'signal-graph',
     name: 'Signal Graph',
     category: 'AI Agents',

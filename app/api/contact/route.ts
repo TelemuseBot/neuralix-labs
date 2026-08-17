@@ -67,7 +67,7 @@ export async function POST(req: Request) {
   //       },
   //       body: JSON.stringify({
   //         from: 'Neuralix Labs <contact@neuralixlabs.com>',
-  //         to: 'neuralixlab@gmail.com',
+  //         to: 'careers@neuralixlabs.in',
   //         subject: `New inquiry from ${body.name}`,
   //         text: body.message,
   //       }),

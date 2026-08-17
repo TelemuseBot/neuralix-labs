@@ -85,8 +85,8 @@ export default function TermsPage() {
             </h2>
             <p className="mt-3 text-[14.5px] leading-relaxed text-ink-secondary">
               Questions about these terms can be sent to{' '}
-              <a href="mailto:neuralixlab@gmail.com" className="text-signal-soft hover:underline">
-                neuralixlab@gmail.com
+              <a href="mailto:careers@neuralixlabs.in" className="text-signal-soft hover:underline">
+                careers@neuralixlabs.in
               </a>
               .
             </p>

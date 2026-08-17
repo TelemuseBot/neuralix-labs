@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Linkedin, Instagram, Mail } from 'lucide-react';
 import { footerNav, legalNav, socialLinks } from '@/data/nav';
 
@@ -11,8 +12,15 @@ export default function Footer() {
         <div className="col-span-2 sm:col-span-3 lg:col-span-2">
           <Link
             href="/"
-            className="font-display text-[15px] font-semibold tracking-tighter text-ink-primary"
+            className="flex items-center gap-2.5 font-display text-[15px] font-semibold tracking-tighter text-ink-primary"
           >
+            <Image
+              src="/logo-icon.png"
+              alt="Neuralix Labs"
+              width={32}
+              height={27}
+              className="h-8 w-auto"
+            />
             NEURALIX<span className="text-signal">·</span>LABS
           </Link>
           <p className="mt-4 max-w-xs text-[13.5px] leading-relaxed text-ink-tertiary">

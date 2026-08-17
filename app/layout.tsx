@@ -53,7 +53,7 @@ const orgSchema = {
   '@type': 'Organization',
   name: 'Neuralix Labs',
   url: siteUrl,
-  email: 'neuralixlab@gmail.com',
+  email: 'careers@neuralixlabs.in',
   sameAs: [
     'https://www.linkedin.com/company/neuralixlabs/',
     'https://www.instagram.com/neuralixlabs',

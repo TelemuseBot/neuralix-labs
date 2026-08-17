@@ -59,8 +59,8 @@ export default function PrivacyPage() {
             <p className="mt-3 text-[14.5px] leading-relaxed text-ink-secondary">
               You can request access to, correction of, or deletion of any
               information you&rsquo;ve submitted to us by emailing{' '}
-              <a href="mailto:neuralixlab@gmail.com" className="text-signal-soft hover:underline">
-                neuralixlab@gmail.com
+              <a href="mailto:careers@neuralixlabs.in" className="text-signal-soft hover:underline">
+                careers@neuralixlabs.in
               </a>
               . We&rsquo;ll respond within a reasonable timeframe.
             </p>
@@ -83,8 +83,8 @@ export default function PrivacyPage() {
             </h2>
             <p className="mt-3 text-[14.5px] leading-relaxed text-ink-secondary">
               Questions about this policy can be sent to{' '}
-              <a href="mailto:neuralixlab@gmail.com" className="text-signal-soft hover:underline">
-                neuralixlab@gmail.com
+              <a href="mailto:careers@neuralixlabs.in" className="text-signal-soft hover:underline">
+                careers@neuralixlabs.in
               </a>
               .
             </p>

@@ -8,6 +8,7 @@ export const mainNav = [
   { label: 'Products', href: '/products' },
   { label: 'Solutions', href: '/solutions' },
   { label: 'Work', href: '/work' },
+  { label: 'Pricing', href: '/pricing' },
   { label: 'About', href: '/about' },
   { label: 'Insights', href: '/insights' },
   { label: 'Careers', href: '/careers' },
@@ -21,16 +22,20 @@ export const footerNav = {
   ],
   Products: [
     { label: 'Verity', href: '/products/verity' },
+    { label: 'SARA AI', href: '/products/sara-ai' },
     { label: 'Signal Graph', href: '/products/signal-graph' },
     { label: 'All products', href: '/products' },
   ],
   Solutions: [
     { label: 'AI Solutions', href: '/solutions' },
     { label: 'Engineering', href: '/services' },
+    { label: 'Process', href: '/process' },
   ],
   Resources: [
     { label: 'Work', href: '/work' },
     { label: 'Insights', href: '/insights' },
+    { label: 'Pricing', href: '/pricing' },
+    { label: 'FAQ', href: '/faq' },
   ],
 };
 
