@@ -1,7 +1,7 @@
 export const socialLinks = {
   linkedin: 'https://www.linkedin.com/company/neuralixlabs/',
   instagram: 'https://www.instagram.com/neuralixlabs',
-  email: 'neuralixlab@gmail.com',
+  email: 'careers@neuralixlabs.in',
 };
 
 export const mainNav = [
